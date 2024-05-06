@@ -1,0 +1,209 @@
+@use "sass:math" as math;
+.parent {
+  background: lightgray;
+  width: 400px;
+  height: 400px; }
+
+.circle:nth-child(1) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(0deg) * 100px  + 200px);
+  left: calc(sin(0deg) * 100px + 200px); }
+
+.circle:nth-child(2) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(9.47368deg) * 100px  + 200px);
+  left: calc(sin(9.47368deg) * 100px + 200px); }
+
+.circle:nth-child(3) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(18.94737deg) * 100px  + 200px);
+  left: calc(sin(18.94737deg) * 100px + 200px); }
+
+.circle:nth-child(4) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(28.42105deg) * 100px  + 200px);
+  left: calc(sin(28.42105deg) * 100px + 200px); }
+
+.circle:nth-child(5) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(37.89474deg) * 100px  + 200px);
+  left: calc(sin(37.89474deg) * 100px + 200px); }
+
+.circle:nth-child(6) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(47.36842deg) * 100px  + 200px);
+  left: calc(sin(47.36842deg) * 100px + 200px); }
+
+.circle:nth-child(7) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(56.84211deg) * 100px  + 200px);
+  left: calc(sin(56.84211deg) * 100px + 200px); }
+
+.circle:nth-child(8) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(66.31579deg) * 100px  + 200px);
+  left: calc(sin(66.31579deg) * 100px + 200px); }
+
+.circle:nth-child(9) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(75.78947deg) * 100px  + 200px);
+  left: calc(sin(75.78947deg) * 100px + 200px); }
+
+.circle:nth-child(10) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(85.26316deg) * 100px  + 200px);
+  left: calc(sin(85.26316deg) * 100px + 200px); }
+
+.circle:nth-child(11) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(94.73684deg) * 100px  + 200px);
+  left: calc(sin(94.73684deg) * 100px + 200px); }
+
+.circle:nth-child(12) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(104.21053deg) * 100px  + 200px);
+  left: calc(sin(104.21053deg) * 100px + 200px); }
+
+.circle:nth-child(13) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(113.68421deg) * 100px  + 200px);
+  left: calc(sin(113.68421deg) * 100px + 200px); }
+
+.circle:nth-child(14) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(123.15789deg) * 100px  + 200px);
+  left: calc(sin(123.15789deg) * 100px + 200px); }
+
+.circle:nth-child(15) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(132.63158deg) * 100px  + 200px);
+  left: calc(sin(132.63158deg) * 100px + 200px); }
+
+.circle:nth-child(16) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(142.10526deg) * 100px  + 200px);
+  left: calc(sin(142.10526deg) * 100px + 200px); }
+
+.circle:nth-child(17) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(151.57895deg) * 100px  + 200px);
+  left: calc(sin(151.57895deg) * 100px + 200px); }
+
+.circle:nth-child(18) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(161.05263deg) * 100px  + 200px);
+  left: calc(sin(161.05263deg) * 100px + 200px); }
+
+.circle:nth-child(19) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(170.52632deg) * 100px  + 200px);
+  left: calc(sin(170.52632deg) * 100px + 200px); }
+
+.circle:nth-child(20) {
+  background: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  translate: -50% -50%;
+  top: calc(cos(180deg) * 100px  + 200px);
+  left: calc(sin(180deg) * 100px + 200px); }
+
+.graph {
+  background-color: grey;
+  height: 500px; }
